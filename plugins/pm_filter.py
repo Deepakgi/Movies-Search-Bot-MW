@@ -288,7 +288,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/OpusTechz')
+                    InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCAnWW9swdoPeBajcJqRlXPA')
                 ],
                 [
                     InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="home")
@@ -299,11 +299,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "home":
             buttons = [
                 [
-                    InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/OpusTechz')
+                    InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCAnWW9swdoPeBajcJqRlXPA')
                 ],
                 [
-                    InlineKeyboardButton("♥️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url="https://t.me/MWUpdatez"),
-                    InlineKeyboardButton("⚡ 𝙰𝙱𝙾𝚄𝚃 ⚡", callback_data="about")
+                    InlineKeyboardButton("♥️ 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 ♥️", url="https://t.me/moviezila700")
+                    
                 ],
                 [
                     InlineKeyboardButton("♻️ 𝚂𝙴𝙰𝚁𝙲𝙷 𝙷𝙴𝚁𝙴 ♻️", switch_inline_query_current_chat='')
@@ -327,7 +327,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCAnWW9swdoPeBajcJqRlXPA')
                     ]
                     ]              
                 await query.answer()
@@ -357,7 +357,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [                
-                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')              
+                        InlineKeyboardButton('✅ 𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴 ✅', url='https://youtube.com/channel/UCAnWW9swdoPeBajcJqRlXPA')              
                     ]
                     ]
                 await query.answer()
